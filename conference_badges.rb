@@ -18,6 +18,6 @@ end
   room_array
 end
 
-def printer(array)
-  puts ""
+def printer(method)
+  method
 end
