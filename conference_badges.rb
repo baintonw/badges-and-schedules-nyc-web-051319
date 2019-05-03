@@ -1,3 +1,5 @@
+speakers = ["Edsger", "Ada", "Charles"]
+
 def badge_maker(name)
   ("Hello, my name is #{name}.")
 end
@@ -20,8 +22,9 @@ end
 
 def printer(method)
   printer_array = method
-  
+
   printer_array.each do |x|
   puts "#{printer_array[x]}"
+  end
 end
-end
+
