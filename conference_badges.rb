@@ -24,7 +24,7 @@ def printer(method)
   printer_array = method
   
   batch_badge_creator(method).each do |x|
-  #puts "Hello, my name is #{x}."
+  #puts "#{x}."
   binding.pry
   end
   
