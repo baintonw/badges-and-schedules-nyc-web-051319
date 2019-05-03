@@ -19,6 +19,6 @@ end
 end
 
 def printer(array)
-  puts "#{new_array}"
-  puts "#{room_array}"
+  puts new_array
+  puts room_array
 end
