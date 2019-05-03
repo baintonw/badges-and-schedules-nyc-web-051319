@@ -8,13 +8,10 @@ def batch_badge_creator(array)
   end
 end
 
-def assign_rooms(array)
+def assign_rooms
   room_counter = 1
   while room_counter <= 7
     "Hello, NAME! You'll be assigned to room #{room_counter}"
     room_counter += 1
   end
-end
-
-def printer
 end
