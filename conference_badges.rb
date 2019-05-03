@@ -9,14 +9,7 @@ def batch_badge_creator(array)
 end
 
 def assign_rooms(array)
- room_counter = 0
-  array.collect do |x|
-    room_counter += 1
-    "Hello, #{x}! You will be assigned to room #{room_counter}!"
-    if room_counter = 7
-    break
-  end
-end
+  array.each_with_index
   
 end
 
