@@ -10,10 +10,9 @@ end
 
 def assign_rooms(array)
   room_counter = 1
-  while room_counter <= 7 array.collect do |x|
+  array.collect do |x|
     "Hello, #{x}! You will be assigned to room #{room_counter}!"
     room_counter += 1
   end
-end
 end
 
