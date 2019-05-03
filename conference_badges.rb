@@ -19,5 +19,5 @@ end
 end
 
 def printer(array)
-  
+  puts ""
 end
