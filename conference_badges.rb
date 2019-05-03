@@ -19,7 +19,9 @@ end
 end
 
 def printer(method)
-  printer_array= []
-  method.each do |name, ro
+  printer_array = method
   
+  printer_array.each do |x|
+  puts "#{x}"
+  end
 end
