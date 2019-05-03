@@ -11,4 +11,6 @@ end
 def assign_rooms(array)
   array.collect do |x|
     "Hello, #{x}! You will be assigned to room"
+  end
 end
+
