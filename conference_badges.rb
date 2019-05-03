@@ -22,6 +22,6 @@ def printer(method)
   printer_array = method
   
   printer_array.each do |x|
-  puts "Hello, my name is #{printer_array[x}."
+  puts "Hello, my name is #{x}."
   end
 end
