@@ -1,3 +1,5 @@
+require 'pry'
+
 def badge_maker(name)
   ("Hello, my name is #{name}.")
 end
@@ -20,7 +22,7 @@ end
 
 def printer(method)
   printer_array = method
-  
+  binding.pry
   printer_array.each do |x|
   puts "Hello, my name is #{x}."
   end
