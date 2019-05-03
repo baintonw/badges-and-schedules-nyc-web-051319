@@ -18,3 +18,7 @@ end
   room_array
 end
 
+def printer
+  puts new_array
+  puts room_array
+end
