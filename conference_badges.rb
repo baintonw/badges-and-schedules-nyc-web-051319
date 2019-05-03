@@ -11,7 +11,7 @@ end
 def assign_rooms(array)
   room_counter = 1
   while room_counter <= 7
-    "Hello, NAME! You'll be assigned to room #{room_counter}"
+    puts "Hello, NAME! You'll be assigned to room #{room_counter}"
     room_counter += 1
   end
 end
