@@ -18,7 +18,7 @@ end
   room_array
 end
 
-def printer
+def printer(array)
   puts "#{new_array}"
   puts "#{room_array}"
 end
