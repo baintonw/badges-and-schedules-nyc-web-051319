@@ -19,5 +19,5 @@ end
 end
 
 def printer(method)
-  method
+  puts method
 end
