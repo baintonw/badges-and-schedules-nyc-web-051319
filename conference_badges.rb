@@ -14,7 +14,5 @@ def assign_rooms(array)
     "Hello, #{x}! You will be assigned to room #{room_counter}!"
     room_counter += 1
   end
-    if room_counter = 7
-  break
 end
 
