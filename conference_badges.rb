@@ -23,5 +23,5 @@ def printer(method)
   
   printer_array.each do |x|
   puts "#{printer_array[x]}"
-  
+end
 end
