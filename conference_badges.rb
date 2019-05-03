@@ -19,5 +19,7 @@ end
 end
 
 def printer(method)
-  puts method
+  printer_array= []
+  method.each do |name, ro
+  
 end
