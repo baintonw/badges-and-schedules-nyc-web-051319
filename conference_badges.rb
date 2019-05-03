@@ -16,5 +16,6 @@ def assign_rooms(array)
     if room_counter = 7
     break
   end
+  end
 end
 
